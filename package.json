@@ -1,0 +1,25 @@
+{
+  "name": "signbridge-ai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SignBridge AI — two-way communication frontend between Indian Sign Language (ISL) users and text/voice users.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2"
+  }
+}
